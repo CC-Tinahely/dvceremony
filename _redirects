@@ -1,0 +1,5 @@
+you can do so by adding the following rules to a _redirects file in the root of your site folder.
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect default Netlify subdomain to primary domain
+https://divorceceremonyireland.netlify.com/* https://www.divorceceremony.ie/:splat 301!
